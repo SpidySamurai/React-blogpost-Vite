@@ -1,8 +1,7 @@
 import React from "react";
-import { useAuth } from "./auth";
+import { useAuth } from "../utils/auth";
 
 const LogoutPage = () => {
-  
   const auth = useAuth();
 
   const logout = (e) => {

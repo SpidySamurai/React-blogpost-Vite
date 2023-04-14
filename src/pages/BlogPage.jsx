@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import { blogdata } from "./blogData";
+import { blogdata } from "../utils/blogData";
 
 const BlogPage = () => {
   return (

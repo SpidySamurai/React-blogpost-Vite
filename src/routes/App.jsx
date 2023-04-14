@@ -1,16 +1,15 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { AuthProvider } from "./auth";
-import Menu from "./Menu";
-import HomePage from "./HomePage";
-import BlogPage from "./BlogPage";
-import BlogPost from "./BlogPost";
-import LoginPage from "./LoginPage";
-import LogoutPage from "./LogoutPage";
-import { AuthRoute } from "./auth";
-import ProfilePage from "./ProfilePage";
+import Menu from "../components/Menu";
+import HomePage from "../pages/HomePage";
+import BlogPage from "../pages/BlogPage";
+import BlogPost from "../components/BlogPost";
+import LoginPage from "../pages/LoginPage";
+import LogoutPage from "../pages/LogoutPage";
+import ProfilePage from "../pages/ProfilePage";
+import { AuthRoute, AuthProvider } from "../utils/auth";
 
-import "./App.css";
+import "../styles/App.css";
 
 function App() {
   return (

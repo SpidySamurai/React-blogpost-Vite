@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from "./auth";
+import { useAuth } from "../utils/auth";
 import { Navigate } from "react-router-dom";
 
 const LoginPage = () => {
@@ -15,7 +15,7 @@ const LoginPage = () => {
   if (auth.user) {
     return <Navigate to="/" />;
   }
-  
+
   return (
     <>
       <h1>LoginPage</h1>
